@@ -1,0 +1,283 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/quanzi/quanzi",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"enablePullDownRefresh": true,
+					"navigationBarBackgroundColor": "#fff",
+					"navigationBarTextStyle":"black"
+			}
+		},
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationBarBackgroundColor": "#554D84",
+			"navigationStyle":"custom"
+		}
+	},
+	{
+		"path": "pages/login/powLogin",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationBarBackgroundColor": "#554D84",
+			"navigationStyle":"custom"
+		}
+	},
+	
+	
+
+		{
+			"path": "pages/publish/success",
+			"style": {
+				"navigationBarTitleText": "发布成功"
+			}
+		},
+	
+
+
+	
+
+
+	
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		
+		
+	
+		
+	
+		
+		
+		
+		{
+			"path": "pages/publish/quanzi",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+		{
+			"path": "pages/quanzi/comment",
+			"style": {
+				"navigationBarTitleText": "动态详情"
+			}
+		},
+		{
+			"path": "pages/quanzi/jiye",
+			"style": {
+				"navigationBarTitleText": "企业介绍"
+			}
+		},
+		
+		{
+			"path": "pages/user/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+
+		},
+		{
+			"path": "pages/user/modify/modify",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		
+	
+		
+	
+		{
+			"path": "pages/quanzi/mine",
+			"style": {
+				"navigationBarTitleText": "我的圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+	
+	
+		
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#554D84"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#554D84"
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+
+		}
+
+		
+       
+        ,{
+            "path" : "pages/quanzi/share",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分享",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/topic/topic",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "话题",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+       
+        ,{
+            "path" : "pages/complain/complain",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投诉",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/replyList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/message/agreeList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "点赞列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/message/collect",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "收藏列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/message/comment",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "评论列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/message/check",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "审核列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/message/notice",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "官方通知",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/error/error",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网络错误",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/quanzi/wxgzh",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "微信公众号",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/quanzi/search",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "搜索",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+     
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#554d84",
+		"list": [{
+				"pagePath": "pages/quanzi/quanzi",
+				"iconPath": "static/tab/index.png",
+				"selectedIconPath": "static/tab/index1.png",
+				"text": "圈子"
+			},
+		
+			{
+				"pagePath": "pages/publish/quanzi",
+				"iconPath": "static/tab/plas.png",
+				"selectedIconPath": "static/tab/plas.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/tab/new.png",
+				"selectedIconPath": "static/tab/new1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab/my.png",
+				"selectedIconPath": "static/tab/my1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
